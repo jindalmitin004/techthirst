@@ -1,10 +1,10 @@
 import React from 'react'
-import './dummy.css'
+import './ddg.css'
 // import IMG1 from '../../assets/Poster.PNG'
 
-const Dummy = () => {
+const Ddg = () => {
   return (
-    <section id='dummy'>
+    <section id='ddg'>
       <h2>Generate Dummy Data</h2>
       <h5>Please select any format:</h5>
 
@@ -34,4 +34,4 @@ const Dummy = () => {
   )
 };
 
-export default Dummy;
+export default Ddg;

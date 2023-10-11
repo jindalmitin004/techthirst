@@ -8,7 +8,7 @@ import Services from './components/services/Services';
 import Portfolio from './components/portfolio/Portfolio';
 import Contact from './components/Contact/Contact';
 import Footer from './components/footer/Footer';
-import Dummy from './components/dummy/Dummy';
+import Ddg from './components/ddg/Ddg';
 
 const App = () => {
   return (
@@ -17,7 +17,7 @@ const App = () => {
         {/* Main Routes */}
         <Route path="/" element={<MainLayout />} />
         {/* Dummy Route (outside of the main layout) */}
-        <Route path="/dummy" element={<Dummy />} />
+        <Route path="/ddg" element={<Ddg />} />
       </Routes>
       <Footer/>
     </Router>

@@ -7,12 +7,12 @@ import IMG3 from '../../assets/portfolio3.jpg'
 import IMG4 from '../../assets/portfolio4.jpg'
 import IMG5 from '../../assets/portfolio5.png'
 import IMG6 from '../../assets/portfolio6.jpg'
-import Dummy from '../dummy/Dummy';
+import Ddg from '../ddg/Ddg';
 
 const Portfolio = () => {
 
   const openDummyInNewTab = () => {
-    window.open('/dummy', '_blank');
+    window.open('/ddg', '_blank');
   };
 
   return (
