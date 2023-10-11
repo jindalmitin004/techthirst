@@ -1,0 +1,221 @@
+header{
+    height: 110vh;
+    padding: 7rem;
+    overflow: hidden;
+}
+
+.header__container{
+    text-align: center;
+    height: 100%;
+    position: relative;
+    top: 100px;
+}
+
+.lamp-container{
+    position: absolute;
+    top: 0;
+    left: 45%;
+    width: 100px;
+    opacity: 0%;
+    top: -25%;
+}
+.lamp{
+    width: 25%;
+}
+.light{
+    position: absolute;
+    top: 100%;
+    left: 10.5%;
+    transform: translateX(-50%);
+    width: 105px;
+    opacity: 80%;
+ }
+
+            /* CTA */
+
+.cta {
+    margin-top: 2.5rem;
+    display: flex;
+    gap: 1.2rem;
+    justify-content: center;
+}
+
+
+            /* Header Socials */
+
+.header__socials{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 0.8rem;
+    position: absolute;
+    left: 0;
+    bottom: 3rem;
+}
+
+
+/*  ME  */
+
+.me{
+    background: linear-gradient(var(--color-primary), transparent);
+    width: 10rem;
+    height: 16rem;
+    position: absolute;
+    left: calc(60% - 11rem);
+    margin-top: 4rem;
+    border-radius: 12rem 12rem 0 0;
+    overflow: hidden;
+    padding: 5rem 1.5rem 1.5rem 1.5rem;
+    transition: var(--transition);
+    font-size: 0;
+}
+
+.me:hover {
+    margin-top: 2rem;
+    padding: 3rem 1.5rem 1.5rem 1.5rem;
+    font-size: 100%;
+}
+
+.me:hover .lamp-container{
+    opacity: 100%;
+    transition: 1.5s;
+    top: 0;
+}
+
+.me1{
+    background: linear-gradient(var(--color-primary), transparent);
+    width: 10rem;
+    height: 16rem;
+    position: absolute;
+    left: calc(30% - 11rem);
+    margin-top: 4rem;
+    border-radius: 12rem 12rem 0 0;
+    overflow: hidden;
+    padding: 5rem 1.5rem 1.5rem 1.5rem;
+    transition: var(--transition);
+    font-size: 0;
+}
+
+.me1:hover{
+    margin-top: 2rem;
+    padding: 3rem 1.5rem 1.5rem 1.5rem;
+    font-size: 100%;
+}
+
+.me1:hover .lamp-container{
+    opacity: 100%;
+    transition: 1.5s;
+    top: 0;
+}
+
+.me2{
+    background: linear-gradient(var(--color-primary), transparent);
+    width: 10rem;
+    height: 16rem;
+    position: absolute;
+    left: calc(90% - 11rem);
+    margin-top: 4rem;
+    border-radius: 12rem 12rem 0 0;
+    overflow: hidden;
+    padding: 5rem 1.5rem 1.5rem 1.5rem;
+    transition: var(--transition);
+    font-size: 0;
+}
+
+.me2:hover{
+    margin-top: 2rem;
+    padding: 3rem 1.5rem 1.5rem 1.5rem;
+    font-size: 100%;
+}
+
+.me2:hover .lamp-container{
+    opacity: 100%;
+    transition: 1.5s;
+    top: 0;
+}
+
+.me3{
+    background: linear-gradient(var(--color-primary), transparent);
+    width: 10rem;
+    height: 16rem;
+    position: absolute;
+    left: calc(75% - 11rem);
+    margin-top: 18rem;
+    border-radius: 12rem 12rem 0 0;
+    overflow: hidden;
+    padding: 5rem 1.5rem 1.5rem 1.5rem;
+    transition: var(--transition);
+    font-size: 0;
+}
+
+.me3:hover{
+    margin-top: 16rem;
+    padding: 3rem 1.5rem 1.5rem 1.5rem;
+    font-size: 100%;
+}
+
+.me3:hover .lamp-container{
+    opacity: 100%;
+    transition: 1.5s;
+    top: 0;
+}
+
+.me4{
+    background: linear-gradient(var(--color-primary), transparent);
+    width: 10rem;
+    height: 16rem;
+    position: absolute;
+    left: calc(45% - 11rem);
+    margin-top: 18rem;
+    border-radius: 12rem 12rem 0 0;
+    overflow: hidden;
+    padding: 5rem 1.5rem 1.5rem 1.5rem;
+    transition: var(--transition);
+    font-size: 0;
+}
+
+.me4:hover{
+    margin-top: 16rem;
+    padding: 3rem 1.5rem 1.5rem 1.5rem;
+    font-size: 100%;
+}
+
+.me4:hover .lamp-container{
+    opacity: 100%;
+    transition: 1.5s;
+    top: 0;
+}
+
+/* SCROLL DOWN */
+
+.scroll__down{
+    position: absolute;
+    right: -2.3rem;
+    bottom: 5rem;
+    transform: rotate(90deg);
+    font-weight: 300;
+    font-size: 0.9rem;
+}
+
+/* MEDIA QUERY FOR MEDIUM DEVICES */
+@media screen and (max-width: 1024px) {
+    header{
+        height: 68vh;
+    }
+    
+}
+
+
+/* MEDIA QUERY FOR SMALL DEVICES */
+@media screen and (max-width: 600px) {
+    header{
+        height: 120vh;
+    }
+    .header__socials, .scroll__down {
+        display: none;
+    }
+    .cta{
+        width: 1fr 1fr;
+        align-items: center;
+    }
+}
