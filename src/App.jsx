@@ -8,7 +8,7 @@ import Services from './components/services/Services';
 import Portfolio from './components/portfolio/Portfolio';
 import Contact from './components/Contact/Contact';
 import Footer from './components/footer/Footer';
-import Ddg from './components/ddg/Ddg';
+import Ddg from './components/portfolio/ddg/Ddg';
 
 const App = () => {
   return (
