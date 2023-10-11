@@ -15,7 +15,7 @@ const App = () => {
     <Router>
       <Routes>
         {/* Main Routes */}
-        <Route path="/" element={<MainLayout />} />
+        {/* <Route path="/" element={<MainLayout />} /> */}
         {/* Dummy Route (outside of the main layout) */}
         <Route path="/ddg" element={<Ddg />} />
       </Routes>
