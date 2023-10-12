@@ -31,7 +31,7 @@ const Portfolio = () => {
           <h3>Learn Software Testing and Database</h3>
           <div className="portfolio__item-cta">
           {/* <a href="https://github.com" className='btn' target='_blank'>Github</a> */}
-          <a href="https://udemy.com" className='btn btn-primary' target='_blank'>Let's Begin</a>
+          <a href="https://www.youtube.com/@techthirst/playlists" className='btn btn-primary' target='_blank'>Let's Begin</a>
           </div>
         </article>
 
