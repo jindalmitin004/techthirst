@@ -9,6 +9,7 @@ import Portfolio from './components/portfolio/Portfolio';
 import Contact from './components/Contact/Contact';
 import Footer from './components/footer/Footer';
 import Ddg from './components/portfolio/ddg/Ddg';
+import Tts from './components/portfolio/tts/Tts';
 
 const App = () => {
   return (
@@ -18,6 +19,7 @@ const App = () => {
         <Route path="/" element={<MainLayout />} />
         {/* Dummy Route (outside of the main layout) */}
         <Route path="/ddg" element={<Ddg />} />
+        <Route path="/tts" element={<Tts />} />
       </Routes>
       <Footer/>
     </Router>

@@ -15,6 +15,10 @@ const Portfolio = () => {
     window.open('/ddg', '_blank');
   };
 
+  const openTtsInNewTab = () => {
+    window.open('/tts', '_blank');
+  };
+
   return (
     <section id='portfolio'>
       <h5>Our Work</h5>
@@ -51,20 +55,17 @@ const Portfolio = () => {
 
         </article>
 
-{/*
-
         <article className='portfolio__item'>
           <div className='portfolio__item-image'>
             <img src={IMG3} alt="" />
           </div>
-          <h3>This is a portfolio item title.</h3>
+          <h3>Text to Speech Generator</h3>
           <div className="portfolio__item-cta">
-          <a href="https://github.com" className='btn' target='_blank'>Github</a>
-          <a href="https://dribbble.com" className='btn btn-primary' target='_blank'>Live Demo</a>
+          <a href="" className='btn btn-primary' target='_blank' onClick={openTtsInNewTab}>Text to Speech</a>
           </div>
         </article>
 
-
+{/*
         <article className='portfolio__item'>
           <div className='portfolio__item-image'>
             <img src={IMG4} alt="" />

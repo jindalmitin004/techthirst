@@ -15,7 +15,7 @@ const Header = () => {
     <header>
       <div className="container header__container">
 {/*        <h5>Hello! We are</h5>*/}
-        <h1>TechThirst Pvt. Ltd.</h1>
+        <h1 className='company_branding'>TechThirst Pvt. Ltd.</h1>
         <h5 className='text-light'>We are Passionate about Tech!!</h5>
 {/*        <CTA />*/}
         <HeaderSocials/>

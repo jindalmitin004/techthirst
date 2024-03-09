@@ -14,7 +14,7 @@
 
 .portfolio__container {
     display: grid;
-    grid-template-columns: repeat(2, 0.35fr);
+    grid-template-columns: repeat(3, 0.35fr);
     gap: 2.5rem;
     justify-content: center;
     align-items: center;

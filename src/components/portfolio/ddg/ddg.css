@@ -13,9 +13,9 @@
 }*/
 
 .dummy__container {
-    padding-top: 30px;
     display: grid;
     grid-template-columns: repeat(1, 0.35fr);
+    gap: 2.5rem;
     justify-content: center;
     align-items: center;
     align-content: center;
@@ -23,14 +23,14 @@
 
 .dummy__item {
     background: var(--color-bg-variant);
-    grid-template-columns: repeat(2, 1fr); /* 2 columns with equal width */
-    grid-template-rows: repeat(2, 1fr); /* 2 rows with equal height */
-    padding: 2rem;
+    padding: 1.3rem;
     border-radius: 2rem;
     border: 1px solid transparent;
     transition: var(--transition);
     text-align: center;
-    display: grid; /* Use grid layout */
+    display: grid;
+    grid-template-columns: repeat(2, 0.35fr);
+    flex-direction: column;
     justify-content: center; /* Center the content horizontally */
     align-items: center; /* Center the content vertically */
 }
